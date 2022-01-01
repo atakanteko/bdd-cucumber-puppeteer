@@ -32,3 +32,5 @@ Gördüğümüz gibi senaryo adımlardan oluşmaktadır. Bu adımlar sırası il
 Gherkin dokümanları **.feature** uzantılı dosyalara yazılır.
 
 Yukarıdaki senaryonun her bir adımını oluşturan unsur **step-definition** olarak adlandırılır. Bu adımlar bir çok programlama dili ile gerçeklenebilmektedir.
+
+Test süreçlerini gerçeklemek için http://zero.webappsecurity.com sitesini kullandım.
