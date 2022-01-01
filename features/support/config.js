@@ -11,7 +11,7 @@ const {createFolder} = require('./util/FileSystem');
 require('dotenv').config()
 
 // Timeout, in milliseconds, for puppeteer actions
-setDefaultTimeout(30 * 100)
+setDefaultTimeout(100 * 1000)
 
 // `BrowserScope` is provided to all hooks and test steps in a scenario as `this`
 setWorldConstructor(BrowserScope)

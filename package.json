@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "run:cucumber-headless":"npx cucumber-js --world-parameters '{\"headless\": true}'",
-    "run:cucumber-headfully":"npx cucumber-js --world-parameters '{\"headless\": false}'"
+    "run:cucumber-headfully":"npx cucumber-js --world-parameters '{\"headless\": false}'",
+    "run:work-headfully":"npx cucumber-js --fail-fast --tags @cell --world-parameters '{\"headless\": false}'",
+    "run:work-headless":"npx cucumber-js --fail-fast --tags @cell --world-parameters '{\"headless\": true}'"
   },
   "keywords": [
     "cucumber",
