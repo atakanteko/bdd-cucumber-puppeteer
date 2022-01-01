@@ -1,4 +1,4 @@
-const { promisify } = require(' util');
+const { promisify } = require('util');
 const fs = require('fs');
 
 // Create promise based versions of the callback functions
